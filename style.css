@@ -124,3 +124,33 @@ li a {
 .icon h3 {
   padding: 0 0 5px 0;
 }
+
+/* quote section */
+.quote-section-bg {
+  background-color: #e5e7eb;
+}
+
+.quotes-section {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quotes-container {
+  width: 80%;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+.attribution {
+  font-weight: 900;
+  font-size: 18px;
+}
+.quotes-section .attribution {
+  text-align: right;
+}

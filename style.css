@@ -86,3 +86,41 @@ li a {
   height: auto;
   border-radius: 10px;
 }
+
+/* Information Section */
+
+.info-section {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.info-section h2 {
+  padding: 0 0 50px 0;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.info-section h2,
+.info-section h3 {
+  color: #1f2937;
+}
+
+.icon-cards {
+  width: 85%;
+  display: flex;
+  gap: 50px;
+  margin: 0 auto;
+  font-size: 18px;
+  padding: 0 0 50px 0;
+}
+
+.icon img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  padding: 0 0 5px 0;
+}
+
+.icon h3 {
+  padding: 0 0 5px 0;
+}

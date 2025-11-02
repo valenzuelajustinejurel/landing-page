@@ -6,6 +6,7 @@
 body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  color: #f9faf8;
 }
 
 .container {
@@ -15,7 +16,6 @@ body {
 
 .dark-bg {
   background-color: #1f2937;
-  color: #f9faf8;
 }
 
 .btn {
@@ -125,6 +125,10 @@ li a {
   padding: 0 0 5px 0;
 }
 
+.icon p {
+  color: rgb(30, 30, 30);
+}
+
 /* quote section */
 .quote-section-bg {
   background-color: #e5e7eb;
@@ -150,7 +154,41 @@ li a {
 .attribution {
   font-weight: 900;
   font-size: 18px;
+  color: rgb(30, 30, 30);
 }
 .quotes-section .attribution {
   text-align: right;
+}
+
+/* CTA Section */
+.cta-section {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-container {
+  width: 60%;
+  height: 150px;
+  background-color: #3882f6;
+  color: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  border-radius: 20px;
+}
+
+.btn-cta {
+  background-color: #3882f6;
+  border: 2px #fafafa solid;
+}
+
+/* Footer */
+footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
